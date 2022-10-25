@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.home {
+    height: 120vh;
+    text-align: center;
+}
+
+.titleHeading {
+    margin-top: 2.7rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+}
+
+
+.para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #5f5f5f;
+}
+
+.avatarContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatarBg {
+    background: #7918b1;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.avatarImg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 51%;
+    height: 16rem;
+    /* color: #C591C3; */
+}
+
+.catSvg {
+    position: absolute;
+    top: 121%;
+    height: 14rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.underscore {
+    font-size: 4rem;
+    animation: blinker .7s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

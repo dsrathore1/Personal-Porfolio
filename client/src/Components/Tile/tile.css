@@ -1,0 +1,30 @@
+.tileContainer {
+    background: #101010c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 12px;
+    color: #fff;
+    padding: 6px 5px -3px 5px;
+    box-shadow: 1px 2px 12px 0 rgba(37, 37, 37, 0.496);
+    transition: all .3s ease-in-out;
+    cursor: default;
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+}
+
+.tileImage {
+    height: 3rem;
+    margin-top: 3.6rem;
+}
+
+.tileTitle {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}

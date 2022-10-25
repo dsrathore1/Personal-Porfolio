@@ -1,0 +1,24 @@
+.SocialMediaList2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sMImg {
+    height: 2rem;
+    margin-top: 16rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 4rem;
+    padding: .5rem;
+    box-shadow: -1px 5px 18px 1px #bbbbbba8;
+    border: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+
+.sMImg:hover {
+    transform: scale(1.2);
+}

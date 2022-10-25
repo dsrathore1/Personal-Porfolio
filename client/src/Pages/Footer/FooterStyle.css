@@ -1,0 +1,103 @@
+.mainFooterContainer {
+    background: #000233;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.footerContainer {
+    color: #ffff;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footerInnerContainer {
+    width: 33.33%;
+    margin: 1rem 3rem;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+.quickLinks {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 6px 0;
+}
+
+.contactInfoList {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactInfo {
+    padding: 6px 0;
+}
+
+.creditSpan {
+    border-top: 1px solid #ffffff5b;
+    padding: 1rem 10rem;
+
+}
+
+.nameSpan {
+    color: #b25bff;
+}
+
+.smList {
+    padding: 0 .6rem;
+
+}
+
+
+
+.socialMediaList {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.smList a {
+    list-style: none;
+    text-decoration: none;
+    color: #000233;
+}
+
+
+/* .smImg{
+    height: 1.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    background: #fff;
+    padding: .7rem;
+    border-radius: 1rem;
+    box-shadow: -1px 2px 12px 0 #bbbbbb9b;
+    transition: all .2s ease-in;
+} */
+
+.portfolioHeading{
+    font-weight: 450;
+}
+
+.nameEmoji{
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
+.quickLinks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 7.3rem;
+    width: 100%;
+}
+
+.smImg:hover{
+    transform: scale(1.1);
+}

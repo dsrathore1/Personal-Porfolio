@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@300&display=swap');
+
+.mainComingSoongContainer {
+    background-image: url('./bg2.jpg');
+    background-size: cover;
+    background-position-y: -10rem;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.csHeading {
+    font-size: 56rem;
+    letter-spacing: 34px;
+    color: #000;
+}
+
+.csLogo {
+    margin-left: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.csLogo .s {
+    color: #946B51;
+}
+
+.csTitle {
+    color: #fff;
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+}
+
+.csPara {
+    color: #946B51;
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-weight: 600;
+    bottom: 13%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 18px;
+    position: absolute;
+}
+
+.notifyArea {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.csInput {
+    padding: .6rem 1rem;
+    width: 30%;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background: #222222;
+    color: #fff;
+}
+
+.notifyBtn {
+    padding: .6rem 3rem;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 2rem;
+    position: absolute;
+    right: 31%;
+    background: #3f201e;
+}
+
+.csNavTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0 3rem;
+}
+
+.csHamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    opacity: 75%;
+}
+
+.csHamburger:active {
+    transform: scale(.8);
+}
+
+.line1 {
+    width: 30px;
+    height: 5px;
+    border-radius: 2rem;
+    background-color: #fff;
+    position: absolute;
+    left: 32px;
+    top: 8px;
+}
+
+.line2 {
+    width: 45px;
+    height: 5px;
+    margin: 3px 0;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.line3 {
+    margin-top: 4px;
+    width: 30px;
+    height: 5px;
+    border-radius: 2rem;
+    background-color: #fff;
+    position: absolute;
+    right: 32px;
+    bottom: 8px;
+}

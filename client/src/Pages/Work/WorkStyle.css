@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.mainContainer {
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 2rem;
+    position: absolute;
+    width: 90vw;
+    top: 130%;
+    left: 49%;
+    transform: translate(-50%, 60%);
+    background: #fff;
+    box-shadow: 1px 2px 12px 0 #a1a1a196;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.Para {
+    text-align: center;
+}
+
+.Development {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #d6d6d6;
+    padding-right: 1rem;
+    width: 33.33%;
+}
+
+.Designs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #d6d6d6;
+    padding: 0 1rem;
+    width: 33.33%;
+}
+
+.DevOps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+    width: 33.33%;
+}
+
+.Heading {
+    margin-top: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+}
+
+.moreBtn{
+    padding: 10px 25px;
+    margin-top: 2rem;   
+    background: #9350b9;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 3px 5px 0 #c2c2c2;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.moreBtn:hover{
+    transform: scale(1.1);
+}
+
+.moreBtn:active{
+    transform: translateY(2px);
+}
+
+.List{
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.Tool{
+    padding-bottom: 4px;
+}
+
+.Heading2{
+    font-size: 18px;
+    margin-top: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: #a66bc8;
+}
+
+.Tools{
+    font-size: 18px;
+    margin-top: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: #a66bc8;
+}
+
+.Tool{
+    font-family: 'Kanit' sans-serif;
+}

@@ -1,0 +1,26 @@
+.aboutContainer {
+    background: linear-gradient(60deg, #cc2b5e, #753a88);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    height: 90vh;
+    margin-bottom: 10rem;
+}
+
+
+.aboutTitle{
+    font-size: 2.4rem;
+    margin-top: 8rem;
+}
+
+.aboutPara {
+    text-align: center;
+    margin: 0 12em;
+    font-size: 19px;
+    color: #ffffffd6;
+}
+
+.container3{
+    height: 180vh;
+}
