@@ -70,27 +70,17 @@ ol {
 }
 
 
-/* .smImg{
-    height: 1.5rem;
-    cursor: pointer;
-    margin-right: 1rem;
-    background: #fff;
-    padding: .7rem;
-    border-radius: 1rem;
-    box-shadow: -1px 2px 12px 0 #bbbbbb9b;
-    transition: all .2s ease-in;
-} */
-
-.portfolioHeading{
-    font-weight: 450;
+.portfolioHeading {
+    font-weight: 650;
+    text-transform: uppercase;
 }
 
-.nameEmoji{
+.nameEmoji {
     margin-right: 1rem;
     font-size: 18px;
 }
 
-.quickLinks{
+.quickLinks {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -98,6 +88,16 @@ ol {
     width: 100%;
 }
 
-.smImg:hover{
+.smImg:hover {
     transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.portSpan {
+    color: #b25bff;
+    font-weight: 900;
 }

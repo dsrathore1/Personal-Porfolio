@@ -1,20 +1,21 @@
-import About from './Pages/About/About';
-import ContactMe from './Pages/ContactMe/ContactMe';
-import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
 import Skills from './Pages/Skills/Skills';
+import ComingSoon from "./Pages/Coming Soon/ComingSoon";
 
-// import ComingSoon from "./Pages/Coming Soon/ComingSoon";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Skills />
-      <ContactMe />
-      <Footer />
-      {/* <ComingSoon /> */}
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/skills' element={<Skills />}></Route>
+          <Route path='*' element={<ComingSoon />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
