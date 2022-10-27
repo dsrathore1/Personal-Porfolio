@@ -16,8 +16,10 @@
     margin-left: 1rem;
     font-size: 1.8rem;
     cursor: pointer;
-    margin-top: 3.5rem;
-    font-family: 'Dancing Script', cursive;
+    margin-top: 3.2rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 23px;
+    font-weight: 800;
 }
 
 .MiddleTitle {
@@ -49,8 +51,9 @@
 }
 
 .s {
-    font-weight: 600;
+    font-weight: 800;
     color: #ac4ce4;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .aboutBtn {
