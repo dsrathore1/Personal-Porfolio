@@ -19,6 +19,7 @@
 
 .contactSpan {
     color: #5c0096;
+
 }
 
 .innerContainer {
@@ -66,13 +67,13 @@
 }
 
 .submitBtn {
-    width: 80%;
+    width: 50%;
     padding: .6rem 0;
     border: none;
-    background: #5c0096;
+    background: #870dd3;
     color: #fff;
     font-size: 1.2rem;
-    border-radius: 8px;
+    border-radius: 2rem;
     box-shadow: 2px 3px 12px 0 #bbb;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
