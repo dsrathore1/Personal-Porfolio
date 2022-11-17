@@ -33,6 +33,7 @@ const Footer = () => {
                     </ol>
                 </div>
             </div>
+            <h1 className='name-King'>King</h1>
             <span className='creditSpan'>Designed With 💓 by <span className='nameSpan'>Digpal Singh Rathore</span></span>
         </div>
         </>

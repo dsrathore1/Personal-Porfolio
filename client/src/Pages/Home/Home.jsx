@@ -23,10 +23,10 @@ const FirstPage = () => {
                 <img className='catSvg' src={PlayFulCat} alt="#cat"></img>
                 <SMIcon />
             </div>
-<About/>
-<Skills/>
-<ContactMe/>
-<Footer/>
+            <About />
+            <Skills />
+            <ContactMe />
+            <Footer />
 
         </>
     )

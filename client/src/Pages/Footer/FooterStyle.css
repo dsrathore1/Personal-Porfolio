@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .mainFooterContainer {
     background: #000233;
     text-align: center;
@@ -7,7 +9,7 @@
 
 .footerContainer {
     color: #ffff;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
 }
@@ -43,6 +45,11 @@ ol {
     border-top: 1px solid #ffffff5b;
     padding: 1rem 10rem;
 
+}
+
+.name-King{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.3rem;
 }
 
 .nameSpan {
