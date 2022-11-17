@@ -17,11 +17,12 @@
 }
 
 .csLogo {
-    margin-left: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
-    font-family: 'Dancing Script', cursive;
+    margin-top: 1rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 23px;
+    font-weight: 800;
 }
 
 .csLogo .s {
@@ -35,8 +36,8 @@
     letter-spacing: 5rem;
     text-transform: uppercase;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 55%;
     width: 80vw;
     transform: translate(-50%, -50%);
 }
@@ -45,7 +46,7 @@
     color: #946B51;
     font-family: 'IBM Plex Sans Hebrew', sans-serif;
     font-weight: 600;
-    bottom: 13%;
+    bottom: 17%;
     left: 50%;
     transform: translate(-50%, -10%);
     font-size: 18px;
@@ -54,7 +55,7 @@
 
 .notifyArea {
     position: absolute;
-    bottom: 32px;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
     display: flex;

@@ -8,7 +8,7 @@ const ComingSoon = () => {
         <>
             <div className='mainComingSoongContainer'>
                 <div className='csNavTop'>
-                    <span className='csLogo'>| D<span className='s'>S</span> |</span>
+                    <span className='csLogo'>DS<span className='s'><br/>RA</span></span>
                     <button className='csHamburger'>
                         <div className='line1'></div>
                         <div className='line2'></div>
