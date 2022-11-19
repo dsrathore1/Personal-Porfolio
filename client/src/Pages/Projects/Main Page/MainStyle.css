@@ -1,0 +1,44 @@
+.ellipse {
+    height: 40rem;
+    width: 80rem;
+    background: #ffffff5d;
+    position: absolute;
+    filter: blur(300px);
+    border-radius: 50%;
+    top: -53%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.headerNav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hnList {
+    background: #ffffff12;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    backdrop-filter: blur(6px);
+    top: 13%;
+    border-radius: 0 22px 0 22px;
+}
+
+.allList {
+    padding: .7rem 2rem;
+    background: #4444449c;
+    border-radius: 6px;
+    margin: 0 1rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    cursor: pointer;
+}
