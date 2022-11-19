@@ -4,6 +4,7 @@ import './ProjectFolderStyle.css';
 const ProjectFolder = () => {
     return (
         <>
+            <h1>Hello I'm Project Page</h1>
         </>
     )
 }

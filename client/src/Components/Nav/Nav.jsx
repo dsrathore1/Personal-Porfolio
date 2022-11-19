@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavStyle.css';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -9,7 +10,9 @@ const Nav = () => {
                 <div className='MiddleTitle'>Portfo<span>lio.</span></div>
                 <div>
                     <a href='#about' className='aboutBtn' >About me</a>
-                    <a href='#contactMe' className='donateBtn btn'>Donate me</a>
+                    <Link to={'/projects'}>
+                        <a href='#contactMe' className='donateBtn btn'>Donate me</a>
+                    </Link>
                 </div>
             </div>
         </>
