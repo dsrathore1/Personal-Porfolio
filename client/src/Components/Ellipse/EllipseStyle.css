@@ -1,0 +1,12 @@
+.ellipse {
+    height: 40rem;
+    width: 80rem;
+    background: #ffffff5d;
+    position: absolute;
+    filter: blur(300px);
+    border-radius: 50%;
+    top: -53%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}

@@ -5,20 +5,20 @@ import './ProjectNavStyle.css';
 const Nav = () => {
     return (
         <>
-            <div className='navBar'>
-                <h2 className='logo'>DS<br /><span className='RA'>RA</span></h2>
-                <ol>
+            <div className='navBar2'>
+                <h2 className='logo2'>DS<br /><span className='RA'>RA</span></h2>
+                <ol className='projectOL'>
                     <Link to='/projects'>
-                        <li>All Projects</li>
+                        <li className='projectList'>All Projects</li>
                     </Link>
                     <Link to='/design'>
-                        <li>Design</li>
+                        <li className='projectList'>Design</li>
                     </Link>
                     <Link to='/development'>
-                        <li>Development</li>
+                        <li className='projectList'>Development</li>
                     </Link>
                     <Link to='/devOps'>
-                        <li>DevOps</li>
+                        <li className='projectList'>DevOps</li>
                     </Link>
                 </ol>
             </div>

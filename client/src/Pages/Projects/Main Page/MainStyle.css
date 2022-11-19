@@ -1,3 +1,9 @@
+.projectContainer{
+    background: #0b0b0b;
+    color: #fff;
+    height: 100vh;
+}
+
 .ellipse {
     height: 40rem;
     width: 80rem;
@@ -8,7 +14,7 @@
     top: -53%;
     left: 40%;
     transform: translate(-50%, -50%);
-    z-index: -1;
+    z-index: 0;
 }
 
 .headerNav {
