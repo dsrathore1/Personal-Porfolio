@@ -7,7 +7,7 @@
     height: 8vh;
     border: none;
     outline: none;
-    box-shadow: 0 1px 10px #0e0e0e;
+    box-shadow: 0 1px 10px #000000;
 }
 
 .logo2 {
@@ -30,8 +30,14 @@
 .projectList {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 350;
-    padding-right: 4rem;
+    padding: 1rem 2.5rem;
     color: #dfdfdf;
+    transition: all .4s ease-in-out;
+}
+
+.projectList:hover{
+    padding: 1rem 2.5rem;
+    background: #4444449c;
 }
 
 .RA {

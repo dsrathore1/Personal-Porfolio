@@ -10,11 +10,13 @@ import About from '../About/About';
 import Skills from '../Skills/Skills';
 import ContactMe from '../ContactMe/ContactMe';
 import Footer from '../Footer/Footer';
+import Navigation from '../../Components/Navigation/Navigation';
 
 const FirstPage = () => {
     return (
         <>
             <Nav />
+            <Navigation />
             <div className='home' id='home'>
                 <h1 className='titleHeading'>Full-Stack Developer, Designer & DevOps Engineer <span className='underscore'>_</span></h1>
                 <p className='para'>I design, code and deploy beautifully, simple things and I love what I do.</p>

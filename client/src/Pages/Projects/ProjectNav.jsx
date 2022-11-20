@@ -8,8 +8,11 @@ const Nav = () => {
             <div className='navBar2'>
                 <h2 className='logo2'>DS<br /><span className='RA'>RA</span></h2>
                 <ol className='projectOL'>
+                    <Link to='/'>
+                        <li className='projectList'>Home</li>
+                    </Link>
                     <Link to='/projects'>
-                        <li className='projectList'>All Projects</li>
+                        <li className='projectList'>Projects</li>
                     </Link>
                     <Link to='/design'>
                         <li className='projectList'>Design</li>

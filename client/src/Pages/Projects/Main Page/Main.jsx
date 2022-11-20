@@ -13,9 +13,9 @@ const Main = () => {
                 <div className='mainPageContainer'>
                     <div className='headerNav'>
                         <ol className='hnList'>
-                            <button className='allList'>All</button>
-                            <button className='allList'>Minor</button>
-                            <button className='allList'>Major</button>
+                            <button className='allList all'>All</button>
+                            <button className='allList minor'>Minor</button>
+                            <button className='allList major'>Major</button>
                         </ol>
                     </div>
                 </div>

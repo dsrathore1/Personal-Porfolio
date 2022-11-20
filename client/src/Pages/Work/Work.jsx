@@ -8,7 +8,7 @@ import './WorkStyle.css';
 const Work = () => {
     return (
         <>
-            <div className='mainContainer'>
+            <div className='mainContainer' id='works'>
                 <div className='Development'>
                     <img className='logo' alt='#logo' src={DevelopmentLogo}></img>
                     <h2 className='Heading'>Dev Projects</h2>

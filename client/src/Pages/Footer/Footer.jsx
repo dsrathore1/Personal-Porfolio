@@ -17,11 +17,18 @@ const Footer = () => {
                         <a href='#nav'>
                             <li className='quickLinks'><span className='nameEmoji'>🏠</span> Home</li>
                         </a>
-                        <li className='quickLinks'><span className='nameEmoji'>📄</span>  About</li>
-                        <li className='quickLinks'><span className='nameEmoji'>🖥</span> Projects</li>
-                        <li className='quickLinks'><span className='nameEmoji'>🤹‍♂️</span> Skills</li>
-                        <li className='quickLinks'><span className='nameEmoji'>🏫</span>  Education</li>
-
+                        <a href='#about'>
+                            <li className='quickLinks'><span className='nameEmoji'>📄</span>  About</li>
+                        </a>
+                        <a href='#works'>
+                            <li className='quickLinks'><span className='nameEmoji'>🖥</span> Projects</li>
+                        </a>
+                        <a href='#skills'>
+                            <li className='quickLinks'><span className='nameEmoji'>🤹‍♂️</span> Skills</li>
+                        </a>
+                        <a href='#contactMe'>
+                            <li className='quickLinks'><span className='nameEmoji'>🤙</span>  Contact Me</li>
+                        </a>
                     </ol>
                 </div>
                 <div className='contactInfos footerInnerContainer'>

@@ -1,0 +1,36 @@
+.navigationContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.containNav {
+    position: absolute;
+    bottom: 12%;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background: #00000017;
+    backdrop-filter: blur(2px);
+    transition: all 0.3s ease-in-out;
+}
+
+.icons {
+    height: 1rem;
+    width: 1rem;
+    margin: .5rem 1rem;
+    padding: 1rem;
+    /* background: #AC4CE4; */
+    border-radius: 30%;
+    transition: all 1s ease-in-out;
+}
+
+.icons:hover {
+    background: linear-gradient(45deg, #cc44cacc, #8f44cccc);
+}

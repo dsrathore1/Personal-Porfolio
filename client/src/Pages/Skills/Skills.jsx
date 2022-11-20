@@ -5,7 +5,7 @@ import './SkillsStyle.css';
 const Skills = () => {
     return (
         <>
-            <div className='skillContainer'>
+            <div className='skillContainer' id='skills'>
                 <h1 className='skillHeading'>💻 Skill & <span className='abilities'>Abilities</span></h1>
                 <div className='skillInnerContainer'>
                     <div className='firstList'>

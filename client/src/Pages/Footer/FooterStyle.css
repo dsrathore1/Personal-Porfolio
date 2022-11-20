@@ -93,6 +93,7 @@ ol {
     justify-content: flex-start;
     margin-left: 7.3rem;
     width: 100%;
+    cursor: pointer;
 }
 
 .smImg:hover {
