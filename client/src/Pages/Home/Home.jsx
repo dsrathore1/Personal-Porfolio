@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../../Components/Nav/Nav'
 import './HomeStyle.css'
 
-import Avatar from '../../Components/Assets/avatar2.png';
+import Avatar from '../../Components/Assets/PersonalPic.jpg';
 
 import PlayFulCat from '../../Components/Assets/cat.svg'
 import SMIcon from '../../Components/Social Media Icon/SMIcon';

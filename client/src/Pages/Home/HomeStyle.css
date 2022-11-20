@@ -46,6 +46,11 @@
     left: 51%;
     height: 16rem;
     /* color: #C591C3; */
+    height: 14rem;
+    width: 14rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .5rem solid #0000000c;
 }
 
 .catSvg {
