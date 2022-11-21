@@ -15,7 +15,7 @@ const ProjectBoxFile = () => {
                                 <h1 className='projectTitle'>{records.title}</h1>
                                 <a href={records.gitHubLink} className='gitHubBtn projectBtn'>GitHub</a>
                                 <button className='liveDemoBtn projectBtn'>Live Demo</button>
-                            </div> 
+                            </div>
                         </div>
                     )
                 })
