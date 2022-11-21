@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "imgLocation": "#",
+        "title": "Charts templates & ideographic in Figma",
+        "gitHubLink": "https://github.com/dsrathore1/100-Days-of-Code.git",
+        "liveDemoLink": "https://theme-changer01.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "imgLocation": "#",
+        "title": "E-Commerce templates in Figma",
+        "gitHubLink": "https://github.com/dsrathore1/Personal-Porfolio.git",
+        "liveDemoLink": "https://medium.datadriveninvestor.com/8-react-open-source-projects-to-learn-and-become-a-react-js-developer-8376107730c4"
+    },
+    {
+        "id": 3,
+        "imgLocation": "#",
+        "title": "TODO-LIST app using MERN",
+        "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
+        "liveDemoLink": "https://wc-react-todo-app.netlify.app/"
+    }
+]

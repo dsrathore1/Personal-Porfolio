@@ -11,7 +11,7 @@ const Navigation = () => {
         <>
             <div className='navigationContainer'>
                 <div className='containNav'>
-                    <a href='#home' className='iconBtn home1'>
+                    <a href='#nav' className='iconBtn home1'>
                     <img className='icons' src={homeIcon} alt=''></img>
                     </a>
                     <a href='#about' className='iconBtn about'>

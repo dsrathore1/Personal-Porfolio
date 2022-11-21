@@ -2,6 +2,7 @@ import React from 'react';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
 import ProjectNav from '../ProjectNav';
 import './MainStyle.css';
+import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
 
 
 const Main = () => {
@@ -19,6 +20,7 @@ const Main = () => {
                         </ol>
                     </div>
                 </div>
+                <ProjectBoxFile />
             </div>
         </>
     )
