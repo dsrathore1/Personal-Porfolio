@@ -4,6 +4,7 @@ import DesignLogo from '../../Components/Assets/Design.svg';
 import DevOpsLogo from '../../Components/Assets/DevOps.svg';
 
 import './WorkStyle.css';
+import { Link } from 'react-router-dom';
 
 const Work = () => {
     return (
@@ -26,7 +27,8 @@ const Work = () => {
                         <li className='Tool'>Bootstrap</li>
                         <li className='Tool'>TailwindCSS</li>
                     </ol>
-                    <a href='#Home' className='moreBtn'>Know More</a>
+                    <Link to={'/development'}>
+                        <a href='#Home' className='moreBtn'>Know More</a></Link>
                 </div>
 
                 {/* Design */}
@@ -47,7 +49,9 @@ const Work = () => {
                         <li className='Tool'>Adobe Photoshop</li>
                         <li className='Tool'>Adobe Illustration</li>
                     </ol>
-                    <a href='#Home' className='moreBtn'>Know More</a>
+                    <Link to='/design'>
+                        <a href='#Home' className='moreBtn'>Know More</a>
+                    </Link>
                 </div>
 
                 {/* DevOps */}
@@ -68,7 +72,9 @@ const Work = () => {
                         <li className='Tool'>Jenkins</li>
                         <li className='Tool'>Docker</li>
                     </ol>
-                    <a href='#Home' className='moreBtn'>Know More</a>
+                    <Link to={"/devOps"}>
+                        <a href='#Home' className='moreBtn'>Know More</a>
+                    </Link>
                 </div>
             </div>
         </>

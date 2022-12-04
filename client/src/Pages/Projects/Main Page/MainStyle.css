@@ -1,11 +1,11 @@
 .projectContainer {
     background: #0b0b0b;
     color: #fff;
-    height: 100vh;
+    height: 500vh;
 }
 
 .headerNav {
-    width: 98vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     align-items: center;
     padding: 1rem 2rem;
     backdrop-filter: blur(6px);
-    top: 13%;
+    top: 9%;
     border-radius: 0 22px 0 22px;
 }
 
@@ -38,9 +38,9 @@
 }
 
 .allList:hover {
-    background: #4444449c;
+    background: #5c5c5cd6;
 }
 
 .all {
-    background: #4444449c;
+    background: #5c5c5cd6;
 }

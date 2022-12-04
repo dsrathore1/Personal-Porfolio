@@ -1,7 +1,6 @@
 import React from 'react'
-import Demo from '../../Pages/Coming Soon/bg1.jpg';
 import "./ProjectBoxFileStyle.css";
-import ProjectRecords from "./JSON/ProjectJson.json";
+import ProjectRecords from "./JSON/jsonFile.json";
 
 const ProjectBoxFile = () => {
     return (
@@ -11,8 +10,9 @@ const ProjectBoxFile = () => {
                     return (
                         <div className='projectMainBox ' key={records.id}>
                             <div className='projectBox'>
-                                <img src={Demo} className='demoImg' alt='#'></img>
+                                <img src={records.img} className='demoImg' alt='#'></img>
                                 <h1 className='projectTitle'>{records.title}</h1>
+                                <p className='desc'>{records.desc}</p>
                                 <a href={records.gitHubLink} className='gitHubBtn projectBtn'>GitHub</a>
                                 <button className='liveDemoBtn projectBtn'>Live Demo</button>
                             </div>

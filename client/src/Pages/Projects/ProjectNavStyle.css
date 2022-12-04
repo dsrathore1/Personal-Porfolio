@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #e1e1e111;
-    width: 98vw;
+    width: 100vw;
     height: 8vh;
     border: none;
     outline: none;
@@ -15,7 +15,6 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 800;
     margin-left: 1rem;
-
     font-size: 28px;
 }
 

@@ -1,6 +1,6 @@
 .projectMainBox {
-    width: 98vw;
-    height: inherit;
+    width: 100vw;
+    display: inline;
 }
 
 
@@ -8,11 +8,11 @@
     display: inline-block;
     height: 33rem;
     text-align: start;
-    margin: 1rem;
+    margin: 7rem 2rem 1rem 2rem;
     width: 28rem;
     background: #4444449c;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:center;
     border-radius: 3rem;
     justify-content: center;
     align-items: center;
@@ -23,8 +23,10 @@
     width: 26rem;
     margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 0 3px 8px 0 #000000;
-}
+    box-shadow: 0 3px 8px 0 #0000004d;
+    object-fit: contain;
+    /* object-position: 0 0 ; */
+    }
 
 .projectTitle {
     font-size: 1.6rem;
@@ -61,4 +63,10 @@
 
 .liveDemoBtn:active {
     transform: scale(.9);
+}
+
+.desc{
+    color: #b3b3b3;
+    font-size: 1rem;
+    margin: 0 1.5rem;
 }
