@@ -1,9 +1,10 @@
 import React from 'react'
-import Nav from '../../Components/Nav/Nav'
+import { useNavigate } from 'react-router-dom';
 import './HomeStyle.css'
 
 import Avatar from '../../Components/Assets/PersonalPic.jpg';
 
+import Nav from '../../Components/Nav/Nav'
 import PlayFulCat from '../../Components/Assets/cat.svg'
 import SMIcon from '../../Components/Social Media Icon/SMIcon';
 import About from '../About/About';
@@ -13,6 +14,7 @@ import Footer from '../Footer/Footer';
 import Navigation from '../../Components/Navigation/Navigation';
 
 const FirstPage = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Nav />
@@ -28,6 +30,7 @@ const FirstPage = () => {
             <About />
             <Skills />
             <ContactMe />
+            <button onClick={() => { navigate("/projects") }} className='allProjectsBtn'>All Projects</button>
             <Footer />
 
         </>

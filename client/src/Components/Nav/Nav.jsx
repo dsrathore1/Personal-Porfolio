@@ -11,7 +11,7 @@ const Nav = () => {
                 <div>
                     <a href='#about' className='aboutBtn' >About me</a>
                     <Link to={'/projects'}>
-                        <a href='#contactMe' className='donateBtn btn'>Donate me</a>
+                        <a href='#contactMe' className='donateBtn btn'>Blogs</a>
                     </Link>
                 </div>
             </div>

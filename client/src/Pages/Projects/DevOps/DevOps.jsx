@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DevOpsStyle.css'
 import ProjectNav from '../ProjectNav';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
 
 const DevOps = () => {
+    useEffect(() => {
+        document.title = 'Portfolio (DevOps)';
+    })
     return (
         <>
             <Ellipse />

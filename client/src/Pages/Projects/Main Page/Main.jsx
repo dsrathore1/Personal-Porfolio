@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
 import ProjectNav from '../ProjectNav';
 import './MainStyle.css';
@@ -6,10 +6,14 @@ import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
 
 
 const Main = () => {
+    useEffect(() => {
+        document.title = 'Portfolio (Projects)';
+    }, []);
+
     return (
         <>
             <Ellipse />
-            <div className='projectContainer'>
+            <div className='h21'>
                 <ProjectNav />
                 <div className='mainPageContainer'>
                     <div className='headerNav'>
@@ -23,7 +27,7 @@ const Main = () => {
                 <ProjectBoxFile />
             </div>
         </>
-    )
+    );
 }
 
 export default Main

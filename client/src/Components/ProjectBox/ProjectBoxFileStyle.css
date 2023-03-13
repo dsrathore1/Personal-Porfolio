@@ -3,7 +3,6 @@
     display: inline;
 }
 
-
 .projectBox {
     display: inline-block;
     height: 33rem;
@@ -24,8 +23,7 @@
     margin: 1rem;
     border-radius: 3rem;
     box-shadow: 0 3px 8px 0 #0000004d;
-    object-fit: contain;
-    /* object-position: 0 0 ; */
+    object-fit: cover;
     }
 
 .projectTitle {
