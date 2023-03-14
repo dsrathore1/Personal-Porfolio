@@ -25,27 +25,11 @@
     justify-content: center;
 }
 
-.avatarBg {
-    background: #7918b1;
-    height: 10rem;
-    width: 10rem;
-    display: flex;
-    margin-top: 8rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
 .avatarImg {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
     left: 51%;
-    height: 16rem;
-    /* color: #C591C3; */
     height: 14rem;
     width: 14rem;
     object-fit: cover;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './ProjectNavStyle.css';
 
 const Nav = () => {
@@ -9,20 +9,20 @@ const Nav = () => {
                 <h2 className='logo2'>DS<br /><span className='RA'>RA</span></h2>
                 <ol className='projectOL'>
                     <a href='/'>
-                        <li className='projectList'>Home</li>
+                        <li className='projectList' >Home</li>
                     </a>
-                    <Link to='/projects'>
+                    <NavLink to='/projects' style={({ isActive }) => ({ backgroundColor: isActive ? "#5c5c5cd6" : "transparent" })}>
                         <li className='projectList'>Projects</li>
-                    </Link>
-                    <Link to='/design'>
+                    </NavLink>
+                    <NavLink to='/design' style={({ isActive }) => ({ backgroundColor: isActive ? "#5c5c5cd6" : "transparent" })}>
                         <li className='projectList'>Design</li>
-                    </Link>
-                    <Link to='/development'>
+                    </NavLink>
+                    <NavLink to='/development' style={({ isActive }) => ({ backgroundColor: isActive ? "#5c5c5cd6" : "transparent" })}>
                         <li className='projectList'>Development</li>
-                    </Link>
-                    <Link to='/devOps'>
+                    </NavLink>
+                    <NavLink to='/devOps' style={({ isActive }) => ({ backgroundColor: isActive ? "#5c5c5cd6" : "transparent" })}>
                         <li className='projectList'>DevOps</li>
-                    </Link>
+                    </NavLink>
                 </ol>
             </div>
         </>

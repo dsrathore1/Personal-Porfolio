@@ -22,7 +22,8 @@ const FirstPage = () => {
             <div className='home' id='home'>
                 <h1 className='titleHeading'>Full-Stack Developer, Designer & DevOps Engineer <span className='underscore'>_</span></h1>
                 <p className='para'>I design, code and deploy beautifully, simple things and I love what I do.</p>
-                <div className='avatarContainer'><img className='avatarImg' src={Avatar} alt='#avatar'></img>
+                <div className='avatarContainer'>
+                <img className='avatarImg' src={Avatar} alt='#avatar'/>
                 </div>
                 <img className='catSvg' src={PlayFulCat} alt="#cat"></img>
                 <SMIcon />

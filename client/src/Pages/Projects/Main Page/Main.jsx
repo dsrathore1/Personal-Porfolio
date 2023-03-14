@@ -3,6 +3,7 @@ import Ellipse from '../../../Components/Ellipse/Ellipse';
 import ProjectNav from '../ProjectNav';
 import './MainStyle.css';
 import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
+import { NavLink } from 'react-router-dom';
 
 
 const Main = () => {
@@ -18,9 +19,10 @@ const Main = () => {
                 <div className='mainPageContainer'>
                     <div className='headerNav'>
                         <ol className='hnList'>
-                            <button className='allList all'>All</button>
-                            <button className='allList minor'>Minor</button>
-                            <button className='allList major'>Major</button>
+                            <NavLink className='allList all' style={({ isActive }) => ({ backgroundColor: isActive ? "#ffffff1b" : "none" })}>All
+                            </NavLink>
+                            <NavLink className='allList minor' style={({ isActive }) => ({ backgroundColor: isActive ? "none" : "#ffffff1b" })}>Minor</NavLink>
+                            <NavLink className='allList major' to="/projects" style={({ isActive }) => ({ backgroundColor: isActive ? "none" : "#ffffff1b" })}>Major</NavLink>
                         </ol>
                     </div>
                 </div>

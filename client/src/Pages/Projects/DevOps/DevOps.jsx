@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './DevOpsStyle.css'
 import ProjectNav from '../ProjectNav';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
+import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
 
 const DevOps = () => {
     useEffect(() => {
@@ -12,7 +13,7 @@ const DevOps = () => {
             <Ellipse />
             <div className='projectContainer'>
                 <ProjectNav />
-                <h1>DevOps Section</h1>
+                <ProjectBoxFile/>
             </div>
         </>
     )

@@ -10,11 +10,12 @@ const ProjectBoxFile = () => {
                     return (
                         <div className='projectMainBox ' key={records.id}>
                             <div className='projectBox'>
-                                <img src={records.img} className='demoImg' alt='#'/>
-                                <h1 className='projectTitle'>{records.title}</h1>
-                                <p className='desc'>{records.desc}</p>
-                                <a href={records.gitHubLink} className='gitHubBtn projectBtn'>GitHub</a>
-                                <button className='liveDemoBtn projectBtn'>Live Demo</button>
+                                <img src={records.img} className='demoImg' alt='#' />
+                                <div className='intro'>
+                                    <h1 className='projectTitle'>{records.title}</h1>
+                                    <a href={records.gitHubLink} className='gitHubBtn projectBtn'>GitHub</a>
+                                    <button className='liveDemoBtn projectBtn'>Live Demo</button>
+                                </div>
                             </div>
                         </div>
                     )

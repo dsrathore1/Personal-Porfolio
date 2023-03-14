@@ -4,71 +4,62 @@
         "title": "Netflix Clone",
         "gitHubLink": "https://github.com/dsrathore1/100-Days-of-Code.git",
         "liveDemoLink": "https://theme-changer01.herokuapp.com/",
-        "img": "https://images.unsplash.com/photo-1659952586072-b3cebadec6d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1659952586072-b3cebadec6d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     },
     {
         "id": 2,
         "title": "Resume Generator",
         "gitHubLink": "https://github.com/dsrathore1/Resume-Project",
         "liveDemoLink": "https://medium.datadriveninvestor.com/8-react-open-source-projects-to-learn-and-become-a-react-js-developer-8376107730c4",
-        "img": "https://images.unsplash.com/photo-1627635174808-34b5172f815a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-        "desc": "Take inputs and render it on resume page"
+        "img": "https://images.unsplash.com/photo-1627635174808-34b5172f815a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     },
     {
         "id": 3,
         "title": "React-Firebase",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
     },
     {
         "id": 4,
         "title": "Email Sender",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1638272181967-7d3772a91265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1638272181967-7d3772a91265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
         "id": 5,
         "title": "Personal Portfolio",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
     },
     {
         "id": 6,
         "title": "REST-API (Backend)",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     },
     {
         "id": 7,
         "title": "AWS Project",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1627163439134-7a8c47e08208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1627163439134-7a8c47e08208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     },
     {
         "id": 8,
         "title": "TODO-LIST app using MERN",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1627843240043-aa499ed215e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1627843240043-aa499ed215e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
     },
     {
         "id": 9,
         "title": "Personal Linktree",
         "gitHubLink": "https://github.com/ShaifArfan/react-todo-app.git",
         "liveDemoLink": "https://wc-react-todo-app.netlify.app/",
-        "img": "https://images.unsplash.com/photo-1628313388780-fb046760ef1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-        "desc": "Sending an email"
+        "img": "https://images.unsplash.com/photo-1628313388780-fb046760ef1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     }
 ]

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './DesignStyle.css';
 import ProjectNav from '../ProjectNav';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
+import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
 
 
 const Design = () => {
@@ -14,7 +15,7 @@ const Design = () => {
             <Ellipse />
             <div className='projectContainer'>
                 <ProjectNav />
-                <h1>Design Section</h1>
+                <ProjectBoxFile />
             </div>
         </>
     )

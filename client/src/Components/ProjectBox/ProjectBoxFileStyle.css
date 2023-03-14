@@ -1,20 +1,27 @@
 .projectMainBox {
     width: 100vw;
     display: inline;
+    scroll-behavior: smooth;
 }
 
 .projectBox {
+    position: relative;
     display: inline-block;
-    height: 33rem;
     text-align: start;
-    margin: 7rem 2rem 1rem 2rem;
+    margin: 13rem 2rem 2rem 2em;
     width: 28rem;
     background: #4444449c;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     border-radius: 3rem;
     justify-content: center;
     align-items: center;
+}
+
+.projectBox:hover .intro{
+    box-shadow: 1px 2px 12px 1px #2c2c2c;
+    visibility: visible;
+    opacity: 1;
 }
 
 .demoImg {
@@ -24,12 +31,14 @@
     border-radius: 3rem;
     box-shadow: 0 3px 8px 0 #0000004d;
     object-fit: cover;
-    }
+}
 
 .projectTitle {
     font-size: 1.6rem;
     margin: 0 1.5rem;
+    text-align: center;
 }
+
 
 .projectBtn {
     padding: 1rem 2rem;
@@ -45,6 +54,8 @@
 
 .gitHubBtn:hover {
     transform: scale(1.1);
+    background: #AC4CE4;
+    color: #fff;
 }
 
 
@@ -63,8 +74,20 @@
     transform: scale(.9);
 }
 
-.desc{
+.desc {
     color: #b3b3b3;
     font-size: 1rem;
     margin: 0 1.5rem;
 }
+
+.intro {
+    position: absolute;
+    top: 13rem;
+    border-radius: 2rem;
+    background-color: #2c2c2c58;
+    visibility: hidden;
+    opacity: 0;
+    backdrop-filter: blur(4px);
+    transition: all .3s ease-in-out;
+}
+

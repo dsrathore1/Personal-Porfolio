@@ -1,7 +1,7 @@
 .h21 {
     background: #0b0b0b;
     color: #fff;
-    height: 290vh;
+    height: 270vh;
 }
 
 .headerNav {
@@ -19,8 +19,9 @@
     align-items: center;
     padding: 1rem 2rem;
     backdrop-filter: blur(6px);
-    top: 9%;
+    top: 14%;
     border-radius: 0 22px 0 22px;
+    z-index: 1;
 }
 
 .allList {
