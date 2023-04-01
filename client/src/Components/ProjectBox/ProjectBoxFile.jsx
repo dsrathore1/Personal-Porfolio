@@ -1,12 +1,11 @@
 import React from 'react'
 import "./ProjectBoxFileStyle.css";
-import ProjectRecords from "./JSON/jsonFile.json";
 
-const ProjectBoxFile = () => {
+const ProjectBoxFile = ({data}) => {
     return (
         <>
             {
-                ProjectRecords.map(records => {
+                data.map(records => {
                     return (
                         <div className='projectMainBox ' key={records.id}>
                             <div className='projectBox'>

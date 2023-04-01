@@ -4,7 +4,6 @@ import ProjectNav from '../ProjectNav';
 import Ellipse from '../../../Components/Ellipse/Ellipse';
 import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
 
-
 const Design = () => {
     useEffect(() => {
         document.title = 'Portfolio (Design)';
