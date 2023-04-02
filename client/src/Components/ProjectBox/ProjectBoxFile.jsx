@@ -2,12 +2,12 @@ import React from 'react'
 import "./ProjectBoxFileStyle.css";
 import data from './JSON/jsonFile.json';
 
-const ProjectBoxFile = () => {
+const ProjectBoxFile = ({belong}) => {
 
     return (
         <>
             {
-                data.map((records) => {
+                data.filter((category) => category.belong === belong).map((records) => {
                     return (
                         <div className='projectMainBox' key={records.id}>
                             <div className='projectBox'>
