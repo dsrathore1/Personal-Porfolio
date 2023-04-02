@@ -3,15 +3,13 @@ import Ellipse from '../../../Components/Ellipse/Ellipse';
 import ProjectNav from '../ProjectNav';
 import './MainStyle.css';
 import ProjectBoxFile from '../../../Components/ProjectBox/ProjectBoxFile';
-import HeaderNav from '../../../Components/HeaderNav/headerNav';
-import { useLocation } from 'react-router-dom';
+import { motion } from "framer-motion";
 
 const Main = () => {
     useEffect(() => {
         document.title = 'Portfolio (Projects)';
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
-
-    const location = useLocation();
 
     return (
         <>
@@ -19,9 +17,10 @@ const Main = () => {
             <div className='h21'>
                 <ProjectNav />
                 <div className='mainPageContainer'>
-                    <HeaderNav num1="All" num2="Minor" num3="Major" />
                 </div>
-                <ProjectBoxFile data={location.state.data} />
+                <motion.div initial={{ opacity: 0 }} animate={{ y: [-400, 0], opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} exit={{ opacity: 0 }}>
+                    <ProjectBoxFile />
+                </motion.div>
             </div>
         </>
     );

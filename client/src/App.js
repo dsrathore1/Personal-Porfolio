@@ -7,8 +7,8 @@ import Design from './Pages/Projects/Design/Design.jsx';
 import DevOps from './Pages/Projects/DevOps/DevOps';
 import Development from './Pages/Projects/Development/Development';
 
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -22,11 +22,10 @@ function App() {
           <Route path='/design' element={<Design />}></Route>
           <Route path='/devOps' element={<DevOps />}></Route>
           <Route path='/development' element={<Development />}></Route>
-
-
           <Route path='*' element={<ComingSoon />}></Route>
         </Routes>
       </Router>
+
     </div>
   );
 }

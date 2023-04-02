@@ -1,13 +1,15 @@
 import React from 'react'
 import "./ProjectBoxFileStyle.css";
+import data from './JSON/jsonFile.json';
 
-const ProjectBoxFile = ({data}) => {
+const ProjectBoxFile = () => {
+
     return (
         <>
             {
-                data.map(records => {
+                data.map((records) => {
                     return (
-                        <div className='projectMainBox ' key={records.id}>
+                        <div className='projectMainBox' key={records.id}>
                             <div className='projectBox'>
                                 <img src={records.img} className='demoImg' alt='#' />
                                 <div className='intro'>
@@ -17,7 +19,7 @@ const ProjectBoxFile = ({data}) => {
                                 </div>
                             </div>
                         </div>
-                    )
+                    );
                 })
             }
         </>
