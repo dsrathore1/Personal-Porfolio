@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <>
-            <div className='container' id='nav'>
+            <div className='navContainer' id='nav'>
                 <span className='logo'> DS<br /><span className='s'>RA</span></span>
                 <div className='MiddleTitle'>Portfo<span>lio.</span></div>
                 <div>

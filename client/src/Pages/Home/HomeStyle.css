@@ -23,6 +23,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+    box-shadow: 5px 5px 7px #cecece,
+        -5px -5px 7px #ffffff;
 }
 
 .avatarImg {
@@ -72,7 +75,7 @@
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
-    font-size:  large;
+    font-size: large;
 }
 
 .allProjects:active {

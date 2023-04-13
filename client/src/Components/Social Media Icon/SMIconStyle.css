@@ -9,11 +9,12 @@
 .sMImg {
     height: 2rem;
     margin-top: 16rem;
-    background: #fff;
     border-radius: 50%;
     margin-right: 4rem;
     padding: .5rem;
-    box-shadow: -1px 5px 18px 1px #bbbbbba8;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+    box-shadow: 5px 5px 10px #c1c1c1,
+        -5px -5px 10px #ffffff;
     border: none;
     outline: none;
     transition: all .3s ease-in-out;
@@ -21,5 +22,7 @@
 
 
 .sMImg:hover {
-    transform: scale(1.2);
+    background: #f8f8f8;
+    box-shadow: inset 10px 10px 20px #d3d3d3,
+        inset -10px -10px 20px #ffffff;
 }

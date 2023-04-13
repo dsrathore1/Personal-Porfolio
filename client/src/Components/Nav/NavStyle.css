@@ -4,7 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
+.navContainer {
     height: 10vh;
     display: flex;
     justify-content: space-between;
