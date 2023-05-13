@@ -5,11 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data</title>
+    <link rel="icon" href="../Assets/favicon.ico">
+    </link>
+    <title>Input Project</title>
 </head>
 
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    .formData {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 1.3rem;
+    }
+</style>
+
 <body>
-    <h1>Hello Data I'm Home Page</h1>
+    <form class="formData" action="/postData" method="POST">
+        <div class="titleContainer">
+            <label class="titleLabel">Title</label>
+            <input placeholder="Title" type="text"></input>
+        </div>
+        <div class="gitHubLinkDiv">
+            <label class="gitHubLinkLabel">Repo Link</label>
+            <input placeholder="Repo Link" type="text"></input>
+        </div>
+        <div class="liveDemoDiv">
+            <label class="liveDemoLabel">Live Demo Link</label>
+            <input placeholder="Live Demo" type="text"></input>
+        </div>
+        <div class="imgDiv">
+            <label class="imgLabel">Image Link</label>
+            <input placeholder="Image Link" type="text"></input>
+        </div>
+        <div class="belongDiv">
+            <label class="categoryLabel">Belong</label>
+            <select class="selectProjectCategory">
+                <option class="categoryOption">Development</option>
+                <option class="categoryOption">DevOps</option>
+                <option class="categoryOption">Design</option>
+            </select>
+        </div>
+        <button class="submitBtn">Submit</button>
+    </form>
 </body>
 
 </html>

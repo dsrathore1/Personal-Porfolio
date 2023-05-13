@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Assets/favicon.ico" ></link>
+    <title>Your Project Data</title>
+</head>
+
+<body>
+    <div class="allDataContainer">
+        <table>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>Live Demo</th>
+                <th>Belong</th>
+            </tr>
+            <%project.forEach((project)=>{%>
+            <tr>
+                <td><%=project._id %></td>
+                <td><%=project.title %></td>
+                <td><%=project.liveDemoLink %></td>
+                <td><%=project.belong %></td>
+            </tr>
+            <%}) %>
+        </table>
+    </div>
+</body>
+
+</html>

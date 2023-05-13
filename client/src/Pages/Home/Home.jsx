@@ -12,6 +12,7 @@ import Skills from '../Skills/Skills';
 import ContactMe from '../ContactMe/ContactMe';
 import Footer from '../Footer/Footer';
 import Navigation from '../../Components/Navigation/Navigation';
+import Carousel from '../../Components/ProjectCarousel/ProjectCarousels';
 
 const FirstPage = () => {
     const navigate = useNavigate();
@@ -29,13 +30,13 @@ const FirstPage = () => {
                 <SMIcon />
             </div>
             <About />
+            <Carousel/>
             <Skills />
             <ContactMe />
             <button onClick={() => { navigate("/projects") }} className='allProjectsBtn'>All Projects</button>
             <Footer />
-
         </>
-    )
+    );
 }
 
 export default FirstPage

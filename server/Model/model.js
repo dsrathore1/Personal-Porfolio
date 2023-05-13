@@ -20,6 +20,6 @@ const Schema = await mongoose.Schema({
     }
 });
 
-const model = await mongoose.model("DataInput", Schema);
+const model = await mongoose.model("Project", Schema);
 
 export default model;
