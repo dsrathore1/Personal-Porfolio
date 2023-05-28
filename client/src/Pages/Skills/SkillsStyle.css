@@ -6,8 +6,8 @@
     align-items: center;
     flex-direction: column;
     background: linear-gradient(60deg, #cc2b5e, #753a88);
-    margin-top: 9rem;
     padding: 2rem;
+    margin-top: -15rem;
 }
 
 .skillHeading {
@@ -35,4 +35,5 @@
 .firstList{
     display: flex;
     justify-content: center;
+    align-items: center;
 }

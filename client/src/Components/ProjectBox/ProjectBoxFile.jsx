@@ -2,8 +2,7 @@ import React from 'react'
 import "./ProjectBoxFileStyle.css";
 import data from './JSON/jsonFile.json';
 
-const ProjectBoxFile = ({belong}) => {
-
+const ProjectBoxFile = ({ belong }) => {
     return (
         <>
             {
@@ -15,7 +14,7 @@ const ProjectBoxFile = ({belong}) => {
                                 <div className='intro'>
                                     <h1 className='projectTitle'>{records.title}</h1>
                                     <a href={records.gitHubLink} className='gitHubBtn projectBtn'>GitHub</a>
-                                    <button className='liveDemoBtn projectBtn'>Live Demo</button>
+                                    <button className='liveDemoBtn projectBtn' onClick={records.liveDemoLink}>Live Demo</button>
                                 </div>
                             </div>
                         </div>

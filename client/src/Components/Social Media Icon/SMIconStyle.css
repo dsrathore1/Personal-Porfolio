@@ -1,14 +1,16 @@
 .SocialMediaList2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 35.5%;
+    top: 35%;
+    right: 0%;
 }
 
 .sMImg {
     height: 2rem;
-    margin-top: 16rem;
+    margin-top: 2rem;
     border-radius: 50%;
     margin-right: 4rem;
     padding: .5rem;
@@ -25,4 +27,18 @@
     background: #f8f8f8;
     box-shadow: inset 10px 10px 20px #d3d3d3,
         inset -10px -10px 20px #ffffff;
+}
+
+.sMImg {
+    animation: icon-lineUp 1s linear;
+}
+
+@keyframes icon-lineUp {
+    0% {
+        transform: rotateY(0deg)
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
 }

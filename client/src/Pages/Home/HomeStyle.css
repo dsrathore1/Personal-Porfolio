@@ -3,23 +3,94 @@
 .home {
     height: 120vh;
     text-align: center;
+    width: 100%;
 }
 
 .titleHeading {
     margin-top: 2.7rem;
     font-family: 'Kanit', sans-serif;
     font-size: 3rem;
+    animation: 2s lineUp linear;
+    cursor: default;
 }
 
+@keyframes lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.doubleDholki {
+    height: 150vh;
+    top: 10%;
+    width: 51.5%;
+    background: #f6e6ff9e;
+    z-index: -1;
+    position: absolute;
+    animation: wide 1.5s linear forwards;
+}
+
+@keyframes wide {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 51.5%;
+    }
+}
 
 .para {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #5f5f5f;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    background: linear-gradient(to right, #4d4d4d 0, #dedede 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 20s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: -1rem;
+    cursor: default;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 600px;
+    }
+
+    100% {
+        background-position: 0px;
+    }
 }
 
 .avatarContainer {
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +102,10 @@
 .avatarImg {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 60%;
+    bottom: 2%;
     left: 51%;
-    height: 14rem;
-    width: 14rem;
+    height: 15rem;
+    width: 15rem;
     object-fit: cover;
     border-radius: 50%;
     border: .5rem solid #0000000c;
@@ -80,4 +151,36 @@
 
 .allProjects:active {
     transform: translateY(2px);
+}
+
+.imgCarouselContainer {
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20rem;
+    background: #000;
+}
+
+.imgCarousel {
+    background-repeat: repeat;
+    background-size: auto 104%;
+    animation: slider 150s linear infinite;
+    background-image: url("../../Components/Assets/Slide2.png");
+}
+
+@keyframes slider {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -2420px 0;
+    }
+}
+
+
+
+.imgCarousel {
+    height: 90vh;
 }

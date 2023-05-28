@@ -9,10 +9,8 @@ const Nav = () => {
                 <span className='logo'> DS<br /><span className='s'>RA</span></span>
                 <div className='MiddleTitle'>Portfo<span>lio.</span></div>
                 <div>
-                    <a href='#about' className='aboutBtn' >About me</a>
-                    <Link to={'/projects'}>
-                        <a href='#contactMe' className='donateBtn btn'>Blogs</a>
-                    </Link>
+                    <Link to={'/resume'} className='aboutBtn' >About me</Link>
+                    <Link to={'/donateMe'} className='donateBtn btn'>Donate Me</Link>
                 </div>
             </div>
         </>

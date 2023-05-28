@@ -3,7 +3,8 @@ import './FooterStyle.css';
 
 const Footer = () => {
     return (
-        <><div className='mainFooterContainer'>
+        <>
+        <div className='mainFooterContainer'>
             <div className='footerContainer'>
                 <div className='aboutPortfolio footerInnerContainer'>
                     <h2 className='portfolioHeading'>Digpal's <span className='portSpan'> Portfolio</span></h2>

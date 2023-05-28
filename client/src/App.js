@@ -6,6 +6,8 @@ import Main from './Pages/Projects/Main Page/Main';
 import Design from './Pages/Projects/Design/Design.jsx';
 import DevOps from './Pages/Projects/DevOps/DevOps';
 import Development from './Pages/Projects/Development/Development';
+import Resume from './Pages/About/Resume/Resume';
+import DonateMe from './Pages/Donate Me/DonateMe';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -22,10 +24,11 @@ function App() {
           <Route path='/design' element={<Design />}></Route>
           <Route path='/devOps' element={<DevOps />}></Route>
           <Route path='/development' element={<Development />}></Route>
-          <Route path='*' element={<ComingSoon />}></Route>
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/donateMe' element={<DonateMe />} />
+          <Route path='*' element={<ComingSoon />} />
         </Routes>
       </Router>
-
     </div>
   );
 }

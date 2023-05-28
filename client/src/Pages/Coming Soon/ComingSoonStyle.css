@@ -36,7 +36,7 @@
     letter-spacing: 5rem;
     text-transform: uppercase;
     position: absolute;
-    top: 40%;
+    top: 46%;
     left: 55%;
     width: 80vw;
     transform: translate(-50%, -50%);
@@ -57,7 +57,7 @@
     position: absolute;
     bottom: 10%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, 5%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .csInput {
-    padding: .6rem 1rem;
+    padding: .8rem 1rem;
     width: 30%;
     border-radius: 2rem;
     border: none;
@@ -75,7 +75,7 @@
 }
 
 .notifyBtn {
-    padding: .6rem 3rem;
+    padding: .8rem 3rem;
     border: none;
     color: #fff;
     outline: none;
