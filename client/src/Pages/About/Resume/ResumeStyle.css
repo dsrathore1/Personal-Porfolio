@@ -1,0 +1,231 @@
+.resumeNav {
+    height: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.resumeContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.resumeLogo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.navLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ra {
+    color: #ac4ce4;
+
+}
+
+.resumeNavLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.resumeNavLink {
+    color: #000;
+    padding: .5rem 2rem;
+}
+
+.navHome {
+    margin-right: 3.8rem;
+    width: 100%;
+}
+
+.navProjects {
+    margin: 0 .53rem;
+}
+
+.ects {
+    color: #fff;
+}
+
+.downloadResume {
+    font-size: 1.5rem;
+    background: #ac4ce4;
+    height: 3.2rem;
+    width: 11%;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    margin-right: 3rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.resumeContainerLeft {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 1rem;
+}
+
+.resumeDividend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showImg {
+    height: 68vh;
+}
+
+.resumeContainerRight {
+    height: 100vh;
+    float: right;
+    width: 55%;
+    background: #18102a;
+    color: #fff;
+    position: relative;
+    padding: 0rem 2.5rem;
+    z-index: -1;
+}
+
+.my-name {
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.my-name2 {
+    color: #ac4ce4;
+}
+
+.dot {
+    height: 1rem;
+    width: 1rem;
+    background: #ac4ce4;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    animation: bounce 1.5s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        margin-top: 1.5rem;
+    }
+
+    50% {
+        margin-top: 0rem;
+    }
+
+    100% {
+        margin-top: 1.5rem;
+    }
+}
+
+.my-profession {
+    margin-top: -2rem;
+    font-size: 1.2rem;
+}
+
+.about-me {
+    text-align: justify;
+}
+
+.experienceAndActivitiesDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.eAADTitle {
+    font-size: 1.8rem;
+}
+
+.show-tile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.show-tile {
+    background: #ececec2a;
+    padding: 0 2rem;
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.show-tile-title {
+    color: #ac4ce4;
+    font-weight: 800;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.show-move-btn {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin: 0 .5rem;
+    background: #ececec13;
+    border: none;
+    outline: none;
+    padding: .6rem 1rem;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.right-side-arrow {
+    background: #ac4ce4;
+}
+
+.about-experience {
+    text-align: justify;
+}
+
+.socialMedia-icon-container {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.social-icon {
+    margin: 0 2rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+.github {
+    background: #ac4ce4;
+}

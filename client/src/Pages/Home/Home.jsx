@@ -23,6 +23,7 @@ const FirstPage = () => {
             </div>
             <About />
             <div className='imgCarouselContainer' onClick={() => navigate("/projects")}>
+                <p className='clickBelow'>👇 Click on any tile for see my all Projects 👇</p>
                 <div className='imgCarousel' />
             </div>
             <Skills />

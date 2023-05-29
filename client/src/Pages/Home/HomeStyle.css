@@ -38,20 +38,22 @@
 .doubleDholki {
     height: 150vh;
     top: 10%;
-    width: 51.5%;
     background: #f6e6ff9e;
     z-index: -1;
+    border-top-right-radius: 70%;
     position: absolute;
-    animation: wide 1.5s linear forwards;
+    animation: wide 1s linear forwards;
 }
 
 @keyframes wide {
     0% {
         width: 0;
+        border-top-right-radius: 0%;
     }
 
     100% {
-        width: 51.5%;
+        width: 45%;
+        border-top-right-radius: 70%;
     }
 }
 
@@ -159,7 +161,6 @@
     position: relative;
     cursor: pointer;
     margin-bottom: 20rem;
-    background: #000;
 }
 
 .imgCarousel {
@@ -183,4 +184,10 @@
 
 .imgCarousel {
     height: 90vh;
+}
+
+.clickBelow {
+    background: none;
+    color: grey;
+    text-align: center;
 }
