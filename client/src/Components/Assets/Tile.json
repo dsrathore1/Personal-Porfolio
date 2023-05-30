@@ -1,0 +1,19 @@
+{
+    "tile": [
+        {
+            "id": 1,
+            "title": "Hacktoberfest Contribute",
+            "about": "I actively participated in the renowned Hacktoberfest event organized by GitHub, where I made valuable contributions to an open-source project. It was an incredible opportunity to collaborate with the global developer community and contribute to the advancement of open-source software."
+        },
+        {
+            "id": 2,
+            "title": "WeFarmous - (Internship)",
+            "about": "I've completed my internship at WeFarmous, a dynamic and innovative company. It was a rewarding experience that allowed me to gain valuable skills and knowledge in my field. I am grateful for the opportunity to have been part of the WeFarmous team."
+        },
+        {
+            "id": 3,
+            "title": "WeFarmous - (Internship)",
+            "about": "I've completed my internship at WeFarmous, a dynamic and innovative company. It was a rewarding experience that allowed me to gain valuable skills and knowledge in my field. I am grateful for the opportunity to have been part of the WeFarmous team."
+        }
+    ]
+}

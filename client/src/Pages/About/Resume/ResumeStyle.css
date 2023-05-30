@@ -8,12 +8,6 @@
     width: 100%;
 }
 
-.resumeContainer {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
 .resumeLogo {
     font-size: 1.8rem;
     font-weight: 900;
@@ -150,67 +144,8 @@
     text-align: justify;
 }
 
-.experienceAndActivitiesDiv {
-    display: flex;
-    flex-direction: column;
-}
-
 .eAADTitle {
     font-size: 1.8rem;
-}
-
-.show-tile-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.show-tile {
-    background: #ececec2a;
-    padding: 0 2rem;
-    width: 90%;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: .5rem;
-    margin-top: 1rem;
-}
-
-.show-tile-title {
-    color: #ac4ce4;
-    font-weight: 800;
-    letter-spacing: .8px;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-}
-
-.show-move-btn {
-    height: 4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.arrow {
-    margin: 0 .5rem;
-    background: #ececec13;
-    border: none;
-    outline: none;
-    padding: .6rem 1rem;
-    color: #fff;
-    border-radius: 2px;
-    cursor: pointer;
-}
-
-.right-side-arrow {
-    background: #ac4ce4;
-}
-
-.about-experience {
-    text-align: justify;
 }
 
 .socialMedia-icon-container {
@@ -226,6 +161,45 @@
     border-radius: 10%;
 }
 
-.github {
+.globe {
     background: #ac4ce4;
+}
+
+.tiles{
+    overflow: hidden;
+    height: 34vh;
+    width: 100%;
+
+}
+
+.show-tile {
+    background: #ececec2a;
+    padding: 0 2rem;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    width: 91%;
+}
+
+.show-tile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.show-tile-title {
+    color: #ac4ce4;
+    font-weight: 800;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.about-experience {
+    text-align: justify;
 }
